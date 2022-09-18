@@ -6,5 +6,7 @@ A conan wrapper for https://github.com/HowardHinnant/date.git
 
 To add Date to your conan cache:
 ```sh
-$ conan create . user/channel -s cppstd=14
+
+conan create . -s compiler.cppstd=14 --build missing
+
 ```
